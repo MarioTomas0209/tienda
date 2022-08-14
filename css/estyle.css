@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root{
+    --primario: #9c27b0;
+    --primarioOscuro: #89119d;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233, 287 2);
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.6%;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* GLOBALES */
+body{
+    background-color: var(--primario);
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.4rem;
+}
