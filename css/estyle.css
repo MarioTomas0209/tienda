@@ -45,3 +45,69 @@ h2{
 h3{
     font-size: 2.4rem;
 }
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+* Inicio Codigo Virbes
+*/
+.header a img {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.nav {
+    background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.nav__home {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 30px;
+}
+
+.nav__nosotros {
+    font-family: var(--fuentePrincipal);
+    color: var(--secundario);
+    font-size: 30px
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.productos__producto {
+    background-color: var(--primarioOscuro);
+    padding: 10px;
+}
+
+.productos__producto--nombre,
+.productos__producto--precio {
+    text-align: center;
+    margin: 2px 0;
+    font-family: var(--fuentePrincipal);
+}
+
+.productos__producto--nombre {
+    color: var(--blanco);
+    font-size: 40px;
+}
+
+.productos__producto--precio {
+    color: var(--secundario);
+    font-size: 35px;
+}
+
+/**
+* FIN Codigo Virbes
+*/

@@ -10,7 +10,55 @@
 </head>
 
 <body>
-    <h1>Tienda de ropa en linea</h1>
+    
+    <header class="header">
+        <a class="header__logo" href="/">
+            <img src="img/logo.png">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a href="/" class="nav__home">TIENDA</a>
+        <a href="nosotros.html" class="nav__nosotros">NOSOTROS</a>
+    </nav>
+
+    <div class="contenedor">
+        <h1>NUESTROS PRODUCTOS</h1>
+
+        <div class="productos">
+            <!-- div.productos--producto*3>a>img[src="img/$.jpg"] -->
+            <div class="productos__producto">
+                <a href="producto.html">
+                    <img src="img/1.jpg" class="productos__producto--img">
+                    <div class="productos__producto--info">
+                        <p class="productos__producto--nombre">Vue.js</p>
+                        <p class="productos__producto--precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="productos__producto">
+                <a href="producto.html">
+                    <img src="img/2.jpg" class="productos__producto--img">
+                    <div class="productos__producto--info">
+                        <p class="productos__producto--nombre">ANGULAR.JS</p>
+                        <p class="productos__producto--precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="productos__producto">
+                <a href="producto.html">
+                    <img src="img/3.jpg" class="productos__producto--img">
+                    <div class="productos__producto--info">
+                        <p class="productos__producto--nombre">REACT.JS</p>
+                        <p class="productos__producto--precio">$25</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
