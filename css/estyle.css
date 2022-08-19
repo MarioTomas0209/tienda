@@ -204,3 +204,32 @@ option{
     font-weight: bold;
     font-size: 2rem;
 }
+
+
+/* Responsive Design */
+@media screen and (max-width: 760px) {
+    .articulo{
+        flex-direction: column;
+    }
+
+    .articulo__descripcion{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .formulario__contenedor{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .formulario__seleccionar{
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+    }
+    
+    .formulario__opciones{
+        width: 100%;
+    }
+}
