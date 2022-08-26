@@ -24,6 +24,7 @@ body{
     background-color: var(--primario);
     font-size: 16px;
     line-height: 1.5;
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -56,7 +57,7 @@ h3{
 * Inicio Codigo Virbes
 */
 .header a img {
-    margin-top: 17px;
+    margin-top: 28px;
     margin-bottom: 17px;
 }
 
@@ -80,15 +81,27 @@ h3{
     font-size: 30px
 }
 
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 .productos {
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
     gap: 30px;
+    justify-content: space-between;
 }
 
 .productos__producto {
     background-color: var(--primarioOscuro);
     padding: 10px;
+    flex-basis: 31%;
+}
+
+.productos__producto_grafico {
+    background-color: var(--primarioOscuro);
+    flex-basis: 65.5%;
 }
 
 .productos__producto--nombre,
@@ -106,6 +119,18 @@ h3{
 .productos__producto--precio {
     color: var(--secundario);
     font-size: 35px;
+}
+
+.footer {
+    height: 97px;
+    margin-top: 20px;
+    background-color: var(--primarioOscuro);
+    text-align: center;
+    line-height: 97px;
+    text-transform: uppercase;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 22px;
 }
 
 /**
