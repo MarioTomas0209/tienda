@@ -25,7 +25,7 @@ body{
     background-color: var(--primario);
     font-size: 16px;
     line-height: 1.5;
-<<<<<<< HEAD
+
     font-family: var(--fuentePrincipal);
     margin: 0;
     padding: 0;
@@ -33,9 +33,7 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
-=======
-    margin: 0px;
->>>>>>> home
+
 }
 a{
     text-decoration: none;
@@ -63,7 +61,6 @@ h3{
     font-size: 2.4rem;
 }
 
-<<<<<<< HEAD
 /* HEADER */
 .header{
     display: flex;
@@ -273,20 +270,10 @@ option{
 .icono__titulo{
     margin: 0;
 }
-=======
-
-.header {
-    display: flex;
-    justify-content: center;
-}
 
 /**
 * Inicio Codigo Virbes
 */
-.header a img {
-    margin-top: 28px;
-    margin-bottom: 17px;
-}
 
 .nav {
     background-color: var(--primarioOscuro);
@@ -308,11 +295,6 @@ option{
     font-size: 30px
 }
 
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
 .productos {
     display: flex;
     flex-flow: row wrap;
@@ -329,6 +311,10 @@ option{
 .productos__producto_grafico {
     background-color: var(--primarioOscuro);
     flex-basis: 65.5%;
+}
+
+.productos__producto_grafico img {
+    width: 100%;
 }
 
 .productos__producto--nombre,
@@ -363,4 +349,3 @@ option{
 /**
 * FIN Codigo Virbes
 */
->>>>>>> home
