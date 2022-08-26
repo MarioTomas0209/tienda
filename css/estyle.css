@@ -25,6 +25,7 @@ body{
     background-color: var(--primario);
     font-size: 16px;
     line-height: 1.5;
+<<<<<<< HEAD
     font-family: var(--fuentePrincipal);
     margin: 0;
     padding: 0;
@@ -32,6 +33,9 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
+=======
+    margin: 0px;
+>>>>>>> home
 }
 a{
     text-decoration: none;
@@ -59,6 +63,7 @@ h3{
     font-size: 2.4rem;
 }
 
+<<<<<<< HEAD
 /* HEADER */
 .header{
     display: flex;
@@ -268,3 +273,94 @@ option{
 .icono__titulo{
     margin: 0;
 }
+=======
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+* Inicio Codigo Virbes
+*/
+.header a img {
+    margin-top: 28px;
+    margin-bottom: 17px;
+}
+
+.nav {
+    background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.nav__home {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 30px;
+}
+
+.nav__nosotros {
+    font-family: var(--fuentePrincipal);
+    color: var(--secundario);
+    font-size: 30px
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.productos__producto {
+    background-color: var(--primarioOscuro);
+    padding: 10px;
+    flex-basis: 31%;
+}
+
+.productos__producto_grafico {
+    background-color: var(--primarioOscuro);
+    flex-basis: 65.5%;
+}
+
+.productos__producto--nombre,
+.productos__producto--precio {
+    text-align: center;
+    margin: 2px 0;
+    font-family: var(--fuentePrincipal);
+}
+
+.productos__producto--nombre {
+    color: var(--blanco);
+    font-size: 40px;
+}
+
+.productos__producto--precio {
+    color: var(--secundario);
+    font-size: 35px;
+}
+
+.footer {
+    height: 97px;
+    margin-top: 20px;
+    background-color: var(--primarioOscuro);
+    text-align: center;
+    line-height: 97px;
+    text-transform: uppercase;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 22px;
+}
+
+/**
+* FIN Codigo Virbes
+*/
+>>>>>>> home
